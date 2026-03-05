@@ -39,7 +39,7 @@ function formatNumber(str) {
 function toMathOp(op) {
   return { '÷': '/', '×': '*', '−': '-', '+': '+' }[op];
 }
-\
+
 
 function inputNumber(digit) {
   if (state.justEvaled) {
